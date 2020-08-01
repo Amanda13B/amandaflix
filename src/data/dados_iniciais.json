@@ -1,75 +1,75 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Games",
+      "link": "/",
+      "cor": "#C40A78",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Games que Gosto de Jogar",
+        "url": "/"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Sonic Unleashed",
+          "url": "https://www.youtube.com/watch?v=H1zmB7VrhM4"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "A Hat in Time",
+          "url": "https://www.youtube.com/watch?v=XhPrcdjhPdQ"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Crash Bandicoot N.Sane Trilogy",
+          "url": "https://www.youtube.com/watch?v=4fbO2-egZ3U"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Undertale",
+          "url": "https://www.youtube.com/watch?v=1Hojv0m3TqA"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Sonic Heroes",
+          "url": "https://www.youtube.com/watch?v=ImOO7JUo1H0"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Hollow Knight",
+          "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Spyro Reignited Trilogy",
+          "url": "https://www.youtube.com/watch?v=orzNU1R4wb8"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "The Legend of Zelda - Ocarina of Time",
+          "url": "https://www.youtube.com/watch?v=Jfg6RfClZJg"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Animações/Filmes",
+      "cor": "#5109BA",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "Animações Previstas para 2020",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Kung Fu Panda 2",
+          "url": "https://www.youtube.com/watch?v=LLBQQ1WZSpg"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Zootopia",
+          "url": "https://www.youtube.com/watch?v=xjxyMm9nRaM"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Detetive Pikachu",
+          "url": "https://www.youtube.com/watch?v=1roy4o4tqQM"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Aladdin",
+          "url": "https://www.youtube.com/watch?v=jkdYkE1xgqQ"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Sonic o Filme",
+          "url": "https://www.youtube.com/watch?v=szby7ZHLnkA"
         }
       ]
     },
