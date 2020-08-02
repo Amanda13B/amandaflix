@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Games",
+            "descrição": "Games que gosto",
+            "cor": "#C40A78"
+        },
+        {
+            "id": 2,
+            "nome": "Animações/Filmes",
+            "descrição": "Animações e filmes que gosto",
+            "cor": "#5109BA"
+        }
+    ]
+}
