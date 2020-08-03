@@ -27,8 +27,9 @@ function CadastroCategoria ()
 
   useEffect( ()=>
     {
-      console.log("Olá");
-      const URL = "http://localhost:8080/categorias";
+      const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : "https://amandaflix.herokuapp.com/categorias";
       fetch(URL)
         .then(async (respostaDoServidor) =>
           {
