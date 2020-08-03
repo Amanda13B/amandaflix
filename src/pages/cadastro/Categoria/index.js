@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
 import FormField from '../../../componentes/FormField';
@@ -25,6 +25,40 @@ function CadastroCategoria ()
     setValorUnico(info.target.getAttribute('name'), info.target.value);
   }
 
+  useEffect( ()=>
+    {
+      console.log("Olá");
+      const URL = "http://localhost:8080/categorias";
+      fetch(URL)
+        .then(async (respostaDoServidor) =>
+          {
+            const resposta = await respostaDoServidor.json();
+            setCategorias([
+              ...resposta
+            ]);
+          })
+
+      /*setTimeout(() =>
+        {
+          setCategorias([
+            ...categorias,
+            {
+              id: 1,
+              nome: "Games",
+              descrição: "Games que gosto",
+              cor: "#C40A78"
+            },
+            {
+              id: 2,
+              nome: "Animações/Filmes",
+              descrição: "Animações e filmes que gosto",
+              cor: "#5109BA"
+            }
+          ]);
+        }, 3 * 1000);*/
+    },[]
+  );
+
   return (
     <PageDefault>
       <h1>Cadastro de Categoria: {valores.nome}</h1>
@@ -50,7 +84,8 @@ function CadastroCategoria ()
           onChange= {handleChange}
         />
 
-        {/*
+        {/* essa era a forma usada antes de transformar o campo de preenchimento em algo reutilizável
+        para usar nos outros campos, basta substituir a Label e os valores dos atributos passados (type, id, name e value)
         <div>
 
           <label to="nome">Nome da Categoria:</label>
@@ -73,19 +108,6 @@ function CadastroCategoria ()
           onChange= {handleChange}
         />
 
-        {/*
-        <div>
-
-          <label to="descricao">Descrição:</label>
-
-          <br/>
-
-          <textarea type="text" id="descricao" name="descricao" value={valores.descricao} 
-          onChange= {handleChange}/>
-
-        </div>
-        */}
-
         <FormField 
           labelText="Cor:"
           tagType="input"
@@ -96,19 +118,6 @@ function CadastroCategoria ()
           onChange= {handleChange}
         />
 
-        {/*
-        <div>
-
-          <label to="cor">Cor:</label>
-
-          <br/>
-
-          <input type="color" id="cor" name="cor" value={valores.cor} 
-          onChange= {handleChange}/>
-
-        </div>
-        */}
-
         <br/>
 
         <button>
@@ -116,6 +125,12 @@ function CadastroCategoria ()
         </button>
 
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => {
