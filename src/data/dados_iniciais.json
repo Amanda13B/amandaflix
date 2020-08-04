@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Games",
+      "nome": "Games",
       "link": "/",
       "cor": "#C40A78",
       "link_extra": {
@@ -10,41 +10,41 @@
       },
       "videos": [
         {
-          "titulo": "Sonic Unleashed",
+          "nome": "Sonic Unleashed",
           "url": "https://www.youtube.com/watch?v=H1zmB7VrhM4"
         },
         {
-          "titulo": "A Hat in Time",
+          "nome": "A Hat in Time",
           "url": "https://www.youtube.com/watch?v=XhPrcdjhPdQ"
         },
         {
-          "titulo": "Crash Bandicoot N.Sane Trilogy",
+          "nome": "Crash Bandicoot N.Sane Trilogy",
           "url": "https://www.youtube.com/watch?v=4fbO2-egZ3U"
         },
         {
-          "titulo": "Undertale",
+          "nome": "Undertale",
           "url": "https://www.youtube.com/watch?v=1Hojv0m3TqA"
         },
         {
-          "titulo": "Sonic Heroes",
+          "nome": "Sonic Heroes",
           "url": "https://www.youtube.com/watch?v=ImOO7JUo1H0"
         },
         {
-          "titulo": "Hollow Knight",
+          "nome": "Hollow Knight",
           "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
         },
         {
-          "titulo": "Spyro Reignited Trilogy",
+          "nome": "Spyro Reignited Trilogy",
           "url": "https://www.youtube.com/watch?v=orzNU1R4wb8"
         },
         {
-          "titulo": "The Legend of Zelda - Ocarina of Time",
+          "nome": "The Legend of Zelda - Ocarina of Time",
           "url": "https://www.youtube.com/watch?v=Jfg6RfClZJg"
         }        
       ]
     },
     {
-      "titulo": "Animações/Filmes",
+      "nome": "Animações/Filmes",
       "cor": "#5109BA",
       "link_extra": {
         "text": "Próximas Animações Previstas",
@@ -52,50 +52,58 @@
       },
       "videos": [
         {
-          "titulo": "Kung Fu Panda 2",
+          "nome": "Kung Fu Panda 2",
           "url": "https://www.youtube.com/watch?v=LLBQQ1WZSpg"
         },
         {
-          "titulo": "Zootopia",
+          "nome": "Zootopia",
           "url": "https://www.youtube.com/watch?v=xjxyMm9nRaM"
         },
         {
-          "titulo": "Detetive Pikachu",
+          "nome": "Detetive Pikachu",
           "url": "https://www.youtube.com/watch?v=1roy4o4tqQM"
         },
         {
-          "titulo": "Aladdin",
+          "nome": "Aladdin",
           "url": "https://www.youtube.com/watch?v=jkdYkE1xgqQ"
         }, 
         {
-          "titulo": "Sonic o Filme",
+          "nome": "Sonic o Filme",
           "url": "https://www.youtube.com/watch?v=szby7ZHLnkA"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "nome": "Origami",
+      "cor": "#11AD8E",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Mais Sobre Origamis",
+        "url": "https://pt.wikipedia.org/wiki/Origami"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "nome": "Diamante de Origami",
+          "url": "https://www.youtube.com/watch?v=sA3XhycdFj4"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "nome": "Borboleta de Origami",
+          "url": "https://www.youtube.com/watch?v=DGzY5d8ab8M&t=10s"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "nome": "Coração de Origami",
+          "url": "https://www.youtube.com/watch?v=O9WV4Mm0En8"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "nome": "Shuriken de Origami",
+          "url": "https://www.youtube.com/watch?v=n01fsCDWAUc"
+        },
+        {
+          "nome": "Rosa/Cubo de Origami",
+          "url": "https://www.youtube.com/watch?v=BXwjLkNXJsQ"
+        },
+        {
+          "nome": "Dinossauro de Origami",
+          "url": "https://www.youtube.com/watch?v=lKOVYw9R7oI"
         }
       ]
     },

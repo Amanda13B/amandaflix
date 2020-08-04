@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
 import FormField from '../../../componentes/FormField';
+import useForm from '../../../hooks/useForm';
+
 
 function CadastroCategoria ()
 {
@@ -9,22 +11,8 @@ function CadastroCategoria ()
 
   const valoresIniciais = {nome:'', descricao:'', cor:''};
 
-  const [valores, setValores] = useState(valoresIniciais);
-
-  function setValorUnico(chaveCampo, valorCampo)
-  {
-    setValores({
-      ...valores,
-      [chaveCampo]: valorCampo //nome: valorCampo
-    })
-  }
-
-  function handleChange(info)
-  {
-    console.log("Entrou na função handleChange");
-    setValorUnico(info.target.getAttribute('name'), info.target.value);
-  }
-
+  const {valores, handleChange, clearForm} = useForm(valoresIniciais);
+  
   useEffect( ()=>
     {
       const URL = window.location.hostname.includes('localhost')
@@ -72,7 +60,7 @@ function CadastroCategoria ()
           ...categorias, valores
         ]);
 
-        setValores(valoresIniciais);
+        clearForm(valoresIniciais);
       }}>
 
         <FormField 
