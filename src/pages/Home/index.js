@@ -37,9 +37,9 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
+                videoTitle={dadosIniciais[0].videos[0].nome}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoDescription={"Versão de Xbox 360 e PS3"}
               />
               <Carousel
                 ignoreFirstVideo
